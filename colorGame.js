@@ -35,7 +35,7 @@ hardBtn.addEventListener("click", function () {
   givenColor = pickColor();
   colorDisplay.textContent = givenColor;
   for (var i = 0; i < squares.length; i++) {
-    squares[i].style.backgroundColor = colors[i];
+    squares[i].style.background = colors[i];
     squares[i].style.display = "block";
   }
 });
