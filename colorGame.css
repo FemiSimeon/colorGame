@@ -1,10 +1,18 @@
 body {
   background-color: #232323;
+  margin: 0;
+  font-family: "Montserrat", "Avenir";
 }
 
 h1 {
   color: white;
   text-align: center;
+  background-color: steelblue;
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1.1;
+  padding: 20px 0;
 }
 
 .square {
@@ -13,10 +21,12 @@ h1 {
   padding-bottom: 30%;
   float: left;
   margin: 1.66%;
+  border-radius: 15%;
+  transition: background-color 0.6s;
 }
 
 #container {
-  margin: 0 auto;
+  margin: 20px auto;
   max-width: 600px;
 }
 
@@ -28,5 +38,33 @@ h1 {
 }
 
 .selected {
-  background: blue;
+  background: steelblue;
+  color: white;
+}
+
+#colorDisplay {
+  font-size: 200%;
+}
+
+button {
+  border: none;
+  background: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: inherit;
+  text-transform: uppercase;
+  height: 100%;
+  color: steelblue;
+  transition: all 0.5s;
+}
+
+button:hover {
+  color: white;
+  background-color: steelblue;
+  cursor: pointer;
+}
+
+#message {
+  display: inline-block;
+  width: 20%;
 }
