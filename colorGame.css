@@ -23,6 +23,8 @@ h1 {
   margin: 1.66%;
   border-radius: 15%;
   transition: background-color 0.6s;
+  -webkit-transition: background-color 0.6s;
+  -moz-transition: background-color 0.6s;
 }
 
 #container {
@@ -53,9 +55,12 @@ button {
   letter-spacing: 1px;
   font-size: inherit;
   text-transform: uppercase;
+  outline: none;
   height: 100%;
   color: steelblue;
   transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
 }
 
 button:hover {

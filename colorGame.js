@@ -49,6 +49,7 @@ resetButton.addEventListener("click", function () {
   }
   h1.style.backgroundColor = "SteelBlue";
   resetButton.textContent = "New Colors";
+  messageDisplay.textContent = "";
 });
 
 for (i = 0; i < squares.length; i++) {
